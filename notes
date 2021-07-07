@@ -1,0 +1,8 @@
+#1) separately english dictionary for spacy has to be download
+python -m spacy download en
+
+#2)two method to run flask server
+1)simple method => python3 application.py
+2)flask method: 2 step
+a)export FLASK_APP=application.py (eg:application.py is the name of your python file where u have written if __name__ == '__main__':)
+b)flask run
