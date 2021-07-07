@@ -6,3 +6,5 @@ python -m spacy download en
 2)flask method: 2 step
 a)export FLASK_APP=application.py (eg:application.py is the name of your python file where u have written if __name__ == '__main__':)
 b)flask run
+
+#3)how to change it to website based to rest api based model
